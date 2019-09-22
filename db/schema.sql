@@ -4,7 +4,6 @@ CREATE TABLE burgers
 (
     id INT
     auto_increment NOT NULL,
-    burger_name VARCHAR
-    (50) NOT NULL,
+    burger_name VARCHAR (50) NOT NULL,
     devoured BOOLEAN,
 )
