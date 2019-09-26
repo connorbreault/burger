@@ -1,25 +1,36 @@
 <div class="container">
+
     <h1 id="header">Burgers!</h1>
 
-    <h2>Burgers that are ready to eat!</h2>
+    <div class="row">
+        <div class="col">
 
-    <ul>
-        {{#each burgers}}
-        {{#unless devoured}}
-        {{> burgers/burger-block devoured=true}}
-        {{/unless}}
-        {{/each}}
-    </ul>
+            <h2>Burgers that are ready to eat!</h2>
+            <hr>
+            <ul>
+                {{#each burgers}}
+                {{#unless devoured}}
+                {{> burgers/burger-block devoured=true}}
+                {{/unless}}
+                {{/each}}
+            </ul>
 
-    <h2>Burgers that have been devoured!</h2>
+        </div>
+        <div class="col">
 
-    <ul>
-        {{#each burgers}}
-        {{#if devoured}}
-        {{> burgers/burger-block devoured=false}}
-        {{/if}}
-        {{/each}}
-    </ul>
+            <h2>Burgers that have been devoured!</h2>
+            <hr>
+            <ul>
+                {{#each burgers}}
+                {{#if devoured}}
+                {{> burgers/burger-block devoured=false}}
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <hr>
 
     <h2>Add a burger</h2>
     <form class="create-form">
@@ -29,6 +40,6 @@
             <input type="text" id="burg" name="name">
         </div>
 
-        <button type="submit">Add Burger</button>
+        <button type="submit" class="btn btn-success">Add Burger</button>
     </form>
 </div>

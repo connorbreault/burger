@@ -1,9 +1,9 @@
-<li>
+<li class="burg-block">
     <h3 class="burgerName">{{burger_name}}</h3>
 
-    <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+    <button type="button" class="change-devoured btn btn-success" data-id="{{id}}" data-newdevoured="{{devoured}}">
         {{#if devoured}}Devoured!{{else}}Ready to eat!{{/if}}
     </button>
 
-    <button class="delete-burger" data-id="{{this.id}}">Delete burger!</button>
+    <button type="button" class="delete-burger btn btn-danger" data-id="{{this.id}}">Delete burger!</button>
 </li>
