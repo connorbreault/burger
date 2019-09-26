@@ -1,0 +1,7 @@
+.container{
+    text-align: center
+}
+#header {
+    background: red;
+    border: black outset 2px
+}
