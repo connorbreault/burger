@@ -10,10 +10,36 @@ body{
     text-align: center;
 }
 #header {
-    background: red;
+    background: #d44a47;
     border: black outset 2px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+}
+.burgerName {
+    background:#8bbf5c;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 15px auto;
+    border: black dashed 2px
+}
+.burgs{
+    list-style: none
+}
+h2{
+    background: #fae24c;
+    border: black outset 2px
+}
+#nameInput {
+    background: #d44a47;
+    border: black outset 1px;
+    padding: 5px
 }
 #addBurgForm {
     margin: auto;
     text-align: center;
+}
+#addButt{
+    margin: 5px auto 15px auto
 }
