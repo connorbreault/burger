@@ -1,7 +1,19 @@
+body{
+    background: url("https://res.cloudinary.com/teepublic/image/private/s--XE2F_tWH--/t_Preview/b_rgb:ffb81c,c_lpad,f_jpg,h_630,q_90,w_1200/v1549064384/production/designs/4129059_0.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .container{
-    text-align: center
+    margin: auto;
+    text-align: center;
 }
 #header {
     background: red;
-    border: black outset 2px
+    border: black outset 2px;
+}
+#addBurgForm {
+    margin: auto;
+    text-align: center;
 }
