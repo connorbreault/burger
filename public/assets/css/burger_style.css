@@ -9,12 +9,14 @@ body{
     margin: auto;
     text-align: center;
 }
+
 #header {
     background: #d44a47;
     border: black outset 2px;
     width: fit-content;
     margin: 20px auto;
     padding: 10px;
+    font-family: 'Bangers', cursive;
 }
 .burgerName {
     background:#8bbf5c;
@@ -25,21 +27,32 @@ body{
     border: black dashed 2px
 }
 .burgs{
-    list-style: none
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px
 }
 h2{
     background: #fae24c;
-    border: black outset 2px
+    border: black outset 2px;
+    font-family: 'Bangers', cursive;
+}
+.burgButton{
+    font-size: 25px
 }
 #nameInput {
     background: #d44a47;
     border: black outset 1px;
-    padding: 5px
+    padding: 5px;
+    font-size: 20px
 }
 #addBurgForm {
     margin: auto;
     text-align: center;
+    font-family: 'Bangers', cursive;
 }
 #addButt{
-    margin: 5px auto 15px auto
+    margin: 5px auto 15px auto;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 2px
 }
