@@ -35,5 +35,5 @@ No installation or login required!
 
 ### Live Site
 
-Click below to visit a live version of this app!
+Click the link to visit a live version of this app!
 https://nameless-mesa-44263.herokuapp.com/
