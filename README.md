@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+![Demoimg](/images/demo.png)
+
 A simple prototype for an order tracking app, currently hosted through Heroku.  This app was built utilizing the following technologies:
 
   - Node
