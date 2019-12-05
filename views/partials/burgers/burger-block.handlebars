@@ -6,5 +6,6 @@
         {{#if devoured}}Remake{{else}}Ready to eat{{/if}}
     </button>
 
-    <button type="button" class="delete-burger btn btn-danger burgButton" data-id="{{this.id}}">Delete order!</button>
+    <button type="button" class="delete-burger btn btn-danger burgButton" data-id="{{this.id}}">{{#if devoured}}Order
+        finished{{else}} Delete order!{{/if</button>
 </li>
